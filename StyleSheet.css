@@ -76,6 +76,8 @@
     width: 900px;
    transform:translate(360px,-280px);
    border-radius:20px;
+   font-family:Arial;
+   font-size:28px;
     
 }
 .koala {
@@ -99,8 +101,12 @@
     padding: 40px;
     height: 200px;
     width: 900px;
-    transform: translate(360px,-225px);
+    transform: translate(360px,-685px);
     border-radius: 20px;
+}
+.seckoala {
+    border-radius: 20px;
+    transform: translateY(-225px);
 }
 footer {
     display: flex;
@@ -110,5 +116,11 @@ footer {
 
 .fifs{
     color: #000;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
+    font-size:20px;
+    transform:translate(200px,-20px);
+    
+}
+.fifs:link{
+    text-decoration:underline;
 }
