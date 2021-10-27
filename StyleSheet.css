@@ -62,11 +62,11 @@
 
     .fihead {
         font-family: Arial;
-        font-size: 50px;
+        font-size: 30px;
         display: block;
         background: lightgrey;
-        padding: 15px;
-        width: 500px;
+        padding: 8px;
+        width: auto;
         border-radius: 20px;
     }
 
@@ -74,61 +74,60 @@
         display: block;
         background: white;
         padding: 40px;
-        height: 200px;
-        width: 900px;
-        transform: translate(360px,-280px);
+        height: 800px;
+        width: auto;
+        transform: translate(0px,-0px);
         border-radius: 20px;
         font-family: Arial;
         font-size: 28px;
+        
     }
 
     .koala {
-        border-radius: 20px;
-        transform: translateY(5px);
+        display:none;
     }
 
     .sehead {
         font-family: Arial;
-        font-size: 50px;
+        font-size: 30px;
         display: block;
         background: lightgrey;
-        padding: 15px;
-        width: 500px;
+        padding: 8px;
+        width: auto ;
         border-radius: 20px;
-        transform: translateY(-230px);
+       
     }
 
     .secontent {
         display: block;
         background: white;
         padding: 40px;
-        height: 200px;
-        width: 900px;
-        transform: translate(360px,-685px);
+        height: 800px;
+        width: auto;
+        transform: translate(0px,-0px);
         border-radius: 20px;
+        font-family: Arial;
+        font-size: 28px;
     }
 
     .seckoala {
-        border-radius: 20px;
-        transform: translateY(-225px);
+       display:none;
     }
 
-    footer {
+    .fifoot {
         display: flex;
         background: white;
         padding: 70px;
-    }
-
-    .fifs {
-        color: #000;
         font-family: Arial;
-        font-size: 20px;
-        transform: translate(200px,-20px);
+        font-size: 30px;
+       
     }
 
-        .fifs:link {
-            text-decoration: underline;
-        }
+    
+    
+    
+
+       
 }
 /*Small devices (landscape phones, 576px and up)*/ 
 @media (min-width: 576px) {
