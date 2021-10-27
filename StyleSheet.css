@@ -1,7 +1,134 @@
 ﻿@media (min-width: 300px) {
     body {
-        background-color: green;
+        background-image: url(australia-alice-springs-roadtrip-the-explorers-way.jpg);
+        background-repeat:no-repeat;
+        background-attachment:local,scroll;
+        background-size:cover;
     }
+
+
+   
+    .home_button {
+
+        font-size: 40px;
+        transform: translateX(-10px);
+        display: block;
+        background: black;
+        color: white;
+        padding: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        width: 300px;
+        text-align: center;
+        border-radius: 30px;
+        font-family: Arial;
+    }
+
+        .home_button:hover {
+            background-color: darkgoldenrod;
+        }
+
+    .source_button {
+        font-size: 40px;
+        transform: translateX(-10px);
+        display: block;
+        background: black;
+        color: white;
+        padding: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        width: 300px;
+        text-align: center;
+        border-radius: 30px;
+        font-family: Arial;
+    }
+
+        .source_button:hover {
+            background-color: darkgoldenrod;
+        }
+
+    .K_K {
+        transform: translateY(-5px);
+    }
+
+    .welcome {
+        font-family: 'Arial Rounded MT';
+        text-align: center;
+        font-size: 70px;
+        transform: translateY(-10px);
+        color: rgb(92, 23, 175);
+        text-shadow: 2px 2px rgb(128,0,255);
+    }
+
+    .fihead {
+        font-family: Arial;
+        font-size: 50px;
+        display: block;
+        background: lightgrey;
+        padding: 15px;
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    .ficontent {
+        display: block;
+        background: white;
+        padding: 40px;
+        height: 200px;
+        width: 900px;
+        transform: translate(360px,-280px);
+        border-radius: 20px;
+        font-family: Arial;
+        font-size: 28px;
+    }
+
+    .koala {
+        border-radius: 20px;
+        transform: translateY(5px);
+    }
+
+    .sehead {
+        font-family: Arial;
+        font-size: 50px;
+        display: block;
+        background: lightgrey;
+        padding: 15px;
+        width: 500px;
+        border-radius: 20px;
+        transform: translateY(-230px);
+    }
+
+    .secontent {
+        display: block;
+        background: white;
+        padding: 40px;
+        height: 200px;
+        width: 900px;
+        transform: translate(360px,-685px);
+        border-radius: 20px;
+    }
+
+    .seckoala {
+        border-radius: 20px;
+        transform: translateY(-225px);
+    }
+
+    footer {
+        display: flex;
+        background: white;
+        padding: 70px;
+    }
+
+    .fifs {
+        color: #000;
+        font-family: Arial;
+        font-size: 20px;
+        transform: translate(200px,-20px);
+    }
+
+        .fifs:link {
+            text-decoration: underline;
+        }
 }
 /*Small devices (landscape phones, 576px and up)*/ 
 @media (min-width: 576px) {
@@ -20,6 +147,132 @@
     body{
         background-color:red;
     }
+    .menubox {
+        display: flex;
+        background: white;
+        padding: 40px;
+    }
+
+    .home_button {
+        font-size: 40px;
+        transform: translateX(760px);
+        display: block;
+        background: black;
+        color: white;
+        padding: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        width: 300px;
+        text-align: center;
+        border-radius: 30px;
+        font-family: Arial;
+    }
+
+        .home_button:hover {
+            background-color: darkgoldenrod;
+        }
+
+    .source_button {
+        font-size: 40px;
+        transform: translateX(780px);
+        display: block;
+        background: black;
+        color: white;
+        padding: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        width: 300px;
+        text-align: center;
+        border-radius: 30px;
+        font-family: Arial;
+    }
+
+        .source_button:hover {
+            background-color: darkgoldenrod;
+        }
+
+    .K_K {
+        transform: translateY(-150px);
+    }
+
+    .welcome {
+        font-family: 'Arial Rounded MT';
+        text-align: center;
+        font-size: 90px;
+        transform: translateY(-140px);
+        color: rgb(92, 23, 175);
+        text-shadow: 2px 2px rgb(128,0,255);
+    }
+
+    .fihead {
+        font-family: Arial;
+        font-size: 50px;
+        display: block;
+        background: lightgrey;
+        padding: 15px;
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    .ficontent {
+        display: block;
+        background: white;
+        padding: 40px;
+        height: 200px;
+        width: 900px;
+        transform: translate(360px,-280px);
+        border-radius: 20px;
+        font-family: Arial;
+        font-size: 28px;
+    }
+
+    .koala {
+        border-radius: 20px;
+        transform: translateY(5px);
+    }
+
+    .sehead {
+        font-family: Arial;
+        font-size: 50px;
+        display: block;
+        background: lightgrey;
+        padding: 15px;
+        width: 500px;
+        border-radius: 20px;
+        transform: translateY(-230px);
+    }
+
+    .secontent {
+        display: block;
+        background: white;
+        padding: 40px;
+        height: 200px;
+        width: 900px;
+        transform: translate(360px,-685px);
+        border-radius: 20px;
+    }
+
+    .seckoala {
+        border-radius: 20px;
+        transform: translateY(-225px);
+    }
+
+    footer {
+        display: flex;
+        background: white;
+        padding: 70px;
+    }
+
+    .fifs {
+        color: #000;
+        font-family: Arial;
+        font-size: 20px;
+        transform: translate(200px,-20px);
+    }
+
+        .fifs:link {
+            text-decoration: underline;
+        }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/ 
@@ -30,123 +283,3 @@
 
 
 
-.menubox {
-    display: flex;
-    background: white;
-    padding: 40px;
-}
-.home_button {
-    font-size: 40px;
-    transform: translateX(760px);
-    display: block;
-    background: black;
-    color: white;
-    padding: 15px;
-    cursor: pointer;
-    text-decoration: none;
-    width: 300px;
-    text-align: center;
-    border-radius: 30px;
-    font-family: Arial;
-}
-.home_button:hover
-{
-    background-color:darkgoldenrod;
-}
-.source_button {
-    font-size: 40px;
-    transform: translateX(780px);
-    display: block;
-    background: black;
-    color: white;
-    padding: 15px;
-    cursor: pointer;
-    text-decoration: none;
-    width: 300px;
-    text-align: center;
-    border-radius: 30px;
-    font-family: Arial;
-}
-
-    .source_button:hover {
-        background-color: darkgoldenrod;
-    }
-        .K_K{
-
-    transform: translateY(-150px);
-}
-
-.welcome {
-    font-family: 'Arial Rounded MT';
-    text-align: center;
-    font-size: 90px;
-    transform: translateY(-140px);
-   
-    color: rgb(92, 23, 175);
-    text-shadow: 2px 2px rgb(128,0,255);
-}
-.fihead {
-    font-family: Arial;
-    font-size: 50px;
-    display: block;
-    background: lightgrey;
-    padding: 15px;
-    width: 500px;
-    border-radius:20px;
-}
-.ficontent {
-    display: block;
-    background: white;
-    padding: 40px;
-    height: 200px;
-    width: 900px;
-   transform:translate(360px,-280px);
-   border-radius:20px;
-   font-family:Arial;
-   font-size:28px;
-    
-}
-.koala {
-   border-radius:20px;
-   transform:translateY(5px);
-}
-
-.sehead {
-    font-family: Arial;
-    font-size: 50px;
-    display: block;
-    background: lightgrey;
-    padding: 15px;
-    width: 500px;
-    border-radius: 20px;
-    transform:translateY(-230px);
-}
-.secontent {
-    display: block;
-    background: white;
-    padding: 40px;
-    height: 200px;
-    width: 900px;
-    transform: translate(360px,-685px);
-    border-radius: 20px;
-}
-.seckoala {
-    border-radius: 20px;
-    transform: translateY(-225px);
-}
-footer {
-    display: flex;
-    background: white;
-    padding:70px;
-}
-
-.fifs{
-    color: #000;
-    font-family: Arial;
-    font-size:20px;
-    transform:translate(200px,-20px);
-    
-}
-.fifs:link{
-    text-decoration:underline;
-}
