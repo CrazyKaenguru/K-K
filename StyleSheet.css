@@ -1,7 +1,7 @@
 ﻿body {
     background-image: url(australia-alice-springs-roadtrip-the-explorers-way.jpg);
     background-repeat: no-repeat;
-   
+   /*change1*/
     background-attachment:fixed;
 }
 .menubox {
