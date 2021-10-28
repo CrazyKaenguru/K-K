@@ -58,7 +58,7 @@
         width: 100px;
         height: 100px;
         transform: translateY(-120px);
-        display:none;
+        
     }
 
     @keyframes Kaenguruanime {
@@ -365,6 +365,7 @@
         width:100px;
         height:100px;
        transform:translateY(-120px);
+       display:normal;
     }
 
     @keyframes Kaenguruanime{
