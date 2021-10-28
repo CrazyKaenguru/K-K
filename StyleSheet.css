@@ -89,7 +89,7 @@
         font-family: 'Arial Rounded MT';
         text-align: center;
         font-size: 70px;
-        transform: translateY(-10px);
+        transform: translateY(10px);
         color: rgb(92, 23, 175);
         text-shadow: 2px 2px rgb(128,0,255);
     }
