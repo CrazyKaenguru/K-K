@@ -2,7 +2,7 @@
     body {
         background-image: url(australia-alice-springs-roadtrip-the-explorers-way.jpg);
         background-repeat: no-repeat;
-        background-attachment: local,scroll;
+        background-attachment: fixed;
         background-size: cover;
     }
 
@@ -10,7 +10,7 @@
 
     .home_button {
         font-size: 40px;
-        transform: translateX(-10px);
+        transform: translateX(0px);
         display: block;
         background: black;
         color: white;
@@ -29,7 +29,8 @@
 
     .source_button {
         font-size: 40px;
-        transform: translateX(-10px);
+        transform: translateX(0px);
+        transform:translateY(10px);
         display: block;
         background: black;
         color: white;
@@ -45,13 +46,46 @@
         .source_button:hover {
             background-color: darkgoldenrod;
         }
+    .background_kangaroo {
+        display: flex;
+        background-color: white;
+        transform: translate3d(0px,10px,40px);
+        object-fit: contain;
+        padding: 24px;
+    }
 
+    .animation {
+        animation-name: Kaenguruanime;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        transform: translateY(30px);
+    }
+
+    @keyframes Kaenguruanime {
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+
+        50% {
+            top: -80px;
+            left: 0px;
+        }
+
+        100% {
+            top: 0px;
+            left: 0px;
+        }
+    }
     
     .welcome {
         font-family: 'Arial Rounded MT';
         text-align: center;
         font-size: 70px;
-        transform: translateY(-10px);
+        transform: translateY(10px);
         color: rgb(92, 23, 175);
         text-shadow: 2px 2px rgb(128,0,255);
     }
@@ -174,6 +208,9 @@
         transform: translateY(-150px);
     }
 
+
+    
+
     .welcome {
         font-family: 'Arial Rounded MT';
         text-align: center;
@@ -265,7 +302,7 @@
     body {
         background-image: url(australia-alice-springs-roadtrip-the-explorers-way.jpg);
         background-repeat: no-repeat;
-        background-attachment: local,scroll;
+        background-attachment: fixed;
         background-size: cover;
     }
 
