@@ -109,7 +109,7 @@
         display: block;
         background: white;
         padding: 40px;
-        height: 800px;
+        height: 200px;
         width: auto;
         transform: translate(0px,-0px);
         border-radius: 20px;
@@ -137,7 +137,7 @@
         display: block;
         background: white;
         padding: 40px;
-        height: 800px;
+        height: 200px;
         width: auto;
         transform: translate(0px,-0px);
         border-radius: 20px;
@@ -276,7 +276,7 @@
         display: block;
         background: white;
         padding: 40px;
-        height: 328px;
+        height: 200px;
         width: 900px;
         transform: translate(500px,-270px);
         border-radius: 20px;
@@ -305,7 +305,7 @@
         display: block;
         background: white;
         padding: 40px;
-        height: 328px;
+        height: 200px;
         width: 900px;
         transform: translate(500px,-420px);
         border-radius: 20px;
@@ -618,7 +618,7 @@
         display: block;
         background: white;
         padding: 40px;
-        height: 328px;
+        height: 150px;
         width: 900px;
         transform: translate(500px,-270px);
         border-radius: 20px;
@@ -640,16 +640,16 @@
         padding: 15px;
         width: 500px;
         border-radius: 20px;
-        transform: translateY(-430px);
+        transform: translateY(-200px);
     }
 
     .secontent {
         display: block;
         background: white;
         padding: 40px;
-        height: 328px;
+        height: 150px;
         width: 900px;
-        transform: translate(500px,-420px);
+        transform: translate(500px,-150px);
         border-radius: 20px;
     }
 
