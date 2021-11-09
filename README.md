@@ -1,3 +1,3 @@
 # K-K
 Welcome to K-K
-t´his is just a school project
+this is just a school project
